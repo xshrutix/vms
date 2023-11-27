@@ -1,0 +1,40 @@
+.home {
+    background-image: url("../../src/assets/images/homeAb1.png");
+    background-size: 100% 101%;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Larger screens (desktops) */
+@media (min-width: 768px) {
+    .home {
+        background-size: cover;
+    }
+}
+
+.vl {
+    border-left: 6px solid rgb(88, 164, 235);
+    height: 70px;
+}
+
+.hor {
+    border-top: 8px solid rgb(88, 164, 235);
+    height: 10px;
+    width: auto;
+}
+
+/* Smaller screens (mobile) */
+@media (max-width: 767px) {
+    .home {
+        height: auto;
+    }
+    .vl {
+        height: 40px;
+        /* Adjust height for smaller screens */
+    }
+
+    .hor {
+        height: 5px;
+        /* Adjust height for smaller screens */
+    }
+}

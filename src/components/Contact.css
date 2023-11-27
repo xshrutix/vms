@@ -1,0 +1,20 @@
+.form-contact {
+    background-image: url("../assets/images/contactbga.png");
+    background-size: 100% 101%;
+    background-position: center;
+}
+
+.contact-container {
+    background: linear-gradient(to bottom, rgb(147, 197, 253), rgb(205, 222, 245));
+    background-size: 100% 101%;
+    background-position: center;
+    height: auto;
+    border-radius: 30px;
+}
+
+.vector {
+    background-image: url("../../src/assets/images/contactbg.png");
+    background-size: 100% 95%;
+    background-color: #C6DCFE;
+    padding-bottom: 3%;
+}
